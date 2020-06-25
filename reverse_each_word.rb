@@ -6,4 +6,3 @@ split_string.collect do |each_letter|
 end
 backwards.join(" ")
 end
-
