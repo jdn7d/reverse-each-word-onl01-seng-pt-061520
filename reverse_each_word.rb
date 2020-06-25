@@ -1,5 +1,9 @@
 def reverse_each_word(string)
+split_letters = string.split(" ")
 backwards = []
-backwards <<  string.chars
+split_letters.each do |each_letter|
+  backwards << each_letter.reverse
+end
+backwards.join(" ")
 
 end
