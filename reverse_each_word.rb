@@ -6,3 +6,12 @@ split_string.each do |each_letter|
 end
 backwards.join(" ")
 end
+
+def reverse_each_word_collect(string)
+split_string = string.split(" ")
+backwards = []
+split_string.collect do |each_letter|
+  backwards << each_letter.reverse
+end
+backwards.join(" ")
+end
