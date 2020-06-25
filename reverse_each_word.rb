@@ -1,4 +1,5 @@
 def reverse_each_word(string)
-  string.chars
+backwards[]
+backwards <<  string.chars
 
 end
