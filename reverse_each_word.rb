@@ -6,5 +6,3 @@ split_string.each do |each_letter|
 end
 backwards.join(" ")
 end
-
-
